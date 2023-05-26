@@ -4,10 +4,7 @@
  */
 package pkg1.pkg13.pkg6;
 import java.util.Scanner;
-/**
- *
- * @author ASUS
- */
+
 public class Main {
 
     /**
@@ -22,12 +19,12 @@ public class Main {
 
         int[] numeros = new int[n];
 
-        for (int i = 0; i < numeros.length; i++) {
+        for (int i = 0; i < n; i++) {
             numeros[i] = i + 1;
         }
 
         System.out.println("Números menores a 500:");
-        for (int i = 0; i < numeros.length; i++) {
+        for (int i = 0; i < n; i++) {
             if (numeros[i] < 500) {
                 System.out.println(numeros[i]);
             }
