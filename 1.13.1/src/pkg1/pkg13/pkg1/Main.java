@@ -4,10 +4,6 @@
  */
 package pkg1.pkg13.pkg1;
 
-/**
- *
- * @author ASUS
- */
 public class Main {
 
     /**
