@@ -19,12 +19,12 @@ public class Main {
 
         int[] numeros = new int[n];
 
-        for (int i = 0; i < numeros.length; i++) {
+        for (int i = 0; i < n; i++) {
             numeros[i] = i + 1;
         }
 
         System.out.println("Contenido del vector:");
-        for (int i = 0; i < numeros.length; i++) {
+        for (int i = 0; i < n; i++) {
             System.out.print(numeros[i] + " ");
         }
     
